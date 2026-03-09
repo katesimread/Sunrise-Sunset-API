@@ -8,6 +8,7 @@ It uses:
 - Leaflet.js for the interactive map
 - OpenStreetMap for map tiles
 - Sunrise-Sunset API for astronomical data
+- Google Time Zone API
 
 ## How It Works
 
@@ -16,7 +17,8 @@ It uses:
 3. The user clicks anywhere on the map.
 4. A marker is placed at the clicked location.
 5. The Sunrise-Sunset API is called with the selected location and date.
-6. Sunrise and sunset times are displayed on the page.
+6. This interacts with the Google Time Zone API to give time in local time rather than UTC.
+7. Sunrise and sunset times are displayed on the page.
 
 ---
 
@@ -32,8 +34,10 @@ You need the following:
 
 ## Author
 Kate Sim Read
+With help from Tahsin Enes Kuru for Time Zone API
 
 
 ## Acknowledgements
 - OpenStreetMap
 - Sunrise-Sunset API
+- Google Time Zone API
